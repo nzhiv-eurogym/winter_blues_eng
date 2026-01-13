@@ -85,10 +85,9 @@ def result_for_score_v2(total: int) -> tuple[str, str]:
         text = (
             "You’re OK — winter blues don’t affect you that much.\n\n"
             "**Tips to stay strong:**\n"
-            "- Keep a steady sleep schedule.\n"
-            "- Get daylight in the morning (even 10 minutes helps).\n"
-            "- Keep moving a little every day.\n"
-            "- Plan small enjoyable things (music, tea, a short walk)."
+            "- Tip 1.\n"
+            "- Tip 2.\n"
+            "- Tip 3.\n"
         )
         return title, text
 
@@ -98,10 +97,9 @@ def result_for_score_v2(total: int) -> tuple[str, str]:
             "It’s quite natural to feel a bit down during winter.\n"
             "You are somewhat affected by winter blues — hard things feel heavier, but you still do them.\n\n"
             "**Tips that usually work:**\n"
-            "- Make tasks smaller: 5 minutes is enough to start.\n"
-            "- Limit doom-scrolling with a timer.\n"
-            "- Try a daily “outside moment” (even a short one).\n"
-            "- Text a friend / study with someone."
+            "- Tip 1.\n"
+            "- Tip 2.\n"
+            "- Tip 3.\n"
         )
         return title, text
 
@@ -111,10 +109,9 @@ def result_for_score_v2(total: int) -> tuple[str, str]:
             "You’re standing, but winter takes a toll.\n"
             "Sometimes you resist winter blues, but it still gets you.\n\n"
             "**Supportive plan:**\n"
-            "- Morning light + warm drink + one easy task.\n"
-            "- Gentle movement (stretching, slow walk, dancing to 1–2 songs).\n"
-            "- Replace phone time: 10 minutes of something that gives energy.\n"
-            "- Stay connected: one message/call a day."
+            "- Tip 1.\n"
+            "- Tip 2.\n"
+            "- Tip 3.\n"
         )
         return title, text
 
@@ -124,10 +121,9 @@ def result_for_score_v2(total: int) -> tuple[str, str]:
         "Winter doesn’t come naturally to you — it feels like hibernation mode.\n"
         "Everything seems hard and it may be difficult to cope alone.\n\n"
         "**What to do (gently):**\n"
-        "- Focus on basics: water, food, warmth, sleep.\n"
-        "- Don’t push too hard — reduce expectations.\n"
-        "- Ask for support from a trusted adult/friend.\n"
-        "- If this lasts 2+ weeks or gets worse, consider talking to a professional."
+        "- Tip 1.\n"
+        "- Tip 2.\n"
+        "- Tip 3.\n"
     )
     return title, text
 
