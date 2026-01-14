@@ -78,7 +78,8 @@ QUESTIONS_V2 = [
 SCALE_HELP_EN = "1 — false • 2 — mostly false • 3 — not sure/50-50 • 4 — mostly true • 5 — true"
 
 
-def result_for_score_v2(total: int) -> tuple[str, str]:
+def result_for_score_v2(total: int) -> tuple[str, str, str]:
+
     # total is 7..35
     if 7 <= total <= 10:
         title = "🛡️ Winter Warrior"
@@ -91,7 +92,7 @@ def result_for_score_v2(total: int) -> tuple[str, str]:
 Why it helps: Quality rest can increase your productivity, and interacting with the outside world can help you find new, meaningful connections, which is an effective mood lifter.
 First tiny step: Buy tickets and text your friends to invite them to join you.\n"
         )
-        return title, text
+        return title, text, "pics1.jpg"
 
     if 11 <= total <= 21:
         title = "🧑‍🚀 Homo sapiens"
@@ -144,10 +145,14 @@ with st.form("winter_blues_form_v2"):
 
 if submitted:
     total = sum(answers)
-    title, tips = result_for_score_v2(total)
+    title, text, image_path = result_for_score_v2(total)
 
     st.divider()
     st.subheader("Your result")
+    
+    st.image(image_path, use_container_width=True)
+    
     st.metric("Your score", total)
     st.markdown(f"### {title}")
-    st.write(tips)
+    st.write(text)
+
