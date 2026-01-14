@@ -86,11 +86,8 @@ def result_for_score_v2(total: int) -> tuple[str, str, str]:
         text = (
             "You’re OK — winter blues don’t affect you that much.\n\n"
             "**Tips:**\n"
-            "- A warrior with a working mind on the strategy will be more successful in his battle.\n
-            Why it helps: That is why you too should engage in some mindful practices to keep your thoughts organised and focused. First tiny step: Practice mindfulness or meditation for 10 minutes daily.\n"
-            "- A good warrior also needs some rest. Visit some exciting event (concert, theatre, cinema).\n
-Why it helps: Quality rest can increase your productivity, and interacting with the outside world can help you find new, meaningful connections, which is an effective mood lifter.
-First tiny step: Buy tickets and text your friends to invite them to join you.\n"
+            "- A warrior with a working mind on the strategy will be more successful in his battle.\nWhy it helps: That is why you too should engage in some mindful practices to keep your thoughts organised and focused. First tiny step: Practice mindfulness or meditation for 10 minutes daily.\n"
+            "- A good warrior also needs some rest. Visit some exciting event (concert, theatre, cinema).\nWhy it helps: Quality rest can increase your productivity, and interacting with the outside world can help you find new, meaningful connections, which is an effective mood lifter. First tiny step: Buy tickets and text your friends to invite them to join you.\n"
         )
         return title, text, "pics1.jpg"
 
