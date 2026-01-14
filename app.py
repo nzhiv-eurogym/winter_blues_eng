@@ -105,8 +105,7 @@ def result_for_score_v2(total: int) -> tuple[str, str, str]:
     if 22 <= total <= 28:
         title = "A dormant tree"
         text = (
-            "You still stand, but your leaves fall during the colder months.\n"
-            "You are affected by winter blues. It can get pretty rough for you during winter; sometimes you resist winter blues, but it still gets you.\n\n"
+            "You still stand, but your leaves fall during the colder months. You are affected by winter blues. It can get pretty rough for you during winter; sometimes you resist winter blues, but it still gets you.\n\n"
             "**Tips:**\n"
             "- Your energy is conserved inward, like a dormant tree. To gently signal for spring, send out one small \"root\" by researching one local club or online community related to your hobbies (e.g., book club, language exchange). **Why it helps**: Trees need each other to survive, which is why joining a club will stand you in good stead. By connecting with others through hobbies, you keep your energy up and follow your interests. **First tiny step**: Research what clubs are available and reach out to them."
             "- Just like a tree shedding its leaves to conserve energy, you need to get rid of the excessive use of social media to lower your stress levels. **Why it helps**: The constant stream of stressful news and comparison-driven social media drains your vital resources and casts a shadow over your already low light. Reducing time online reduces the cognitive and emotional "noise," making space for quieter thoughts. **First tiny step**: Set a time limit on your phone or find activities apart from social media.\n"
